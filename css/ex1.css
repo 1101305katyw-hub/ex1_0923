@@ -1,22 +1,22 @@
 body{
 	text-align: center; /* 文字置中 */
-	background: #b6cfb9;
-	color: #d95122; /*文字顏色*/
+	background: #93abd9;
+	color: #ede986; /*文字顏色*/
 	padding: 0;
 	margin: 0;
 }
 
 /*nav*/
 nav{
-	background: #896645;
+	background: #e7bef8;
 }
 
 nav a{
-	background: #eab05c;
+	background: #f2619c;
 	padding: 18px;
 	display: inline-block;
 
-	color: #d95122;
+	color: #ede986;
 	text-decoration: none;
 }
 
@@ -46,20 +46,20 @@ article img{
 
 article a{
 	display: inline-block;
-	color:#603314;
-	background: #d8d3b3;
+	color:#ede986;
+	background: #f2619c;
 	text-decoration: none;
 	padding-bottom: 20px;
 }
 
 article a:hover{
-	color:#fffbe4;
-	background: #eab05c;
+	color:#f1efc4;
+	background: #e7bef8;
 }
 
 article a:active{
 	color:#eae5c7;
-	background: #e5c69d;
+	background: #e1d8e6;
 }
 
 footer{
