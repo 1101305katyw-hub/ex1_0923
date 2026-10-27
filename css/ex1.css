@@ -1,6 +1,6 @@
 body{
 	text-align: center; /* 文字置中 */
-	background: #93abd9;
+	background: img/bg.jpg; /*背景圖片*/
 	color: #ede986; /*文字顏色*/
 	padding: 0;
 	margin: 0;
@@ -44,7 +44,7 @@ article img{
 	border-radius: 50%;
 }
 
-article a{
+article a,article b{
 	display: inline-block;
 	color:#ede986;
 	background: #f2619c;
