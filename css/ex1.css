@@ -1,6 +1,9 @@
 body{
 	text-align: center; /* 文字置中 */
-	background: img/bg.jpg; /*背景圖片*/
+	background-image: url("../images/bg.jpg"); 
+ 	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
 	color: #ede986; /*文字顏色*/
 	padding: 0;
 	margin: 0;
@@ -44,22 +47,42 @@ article img{
 	border-radius: 50%;
 }
 
-article a,article b{
+article a, article b, article c{
 	display: inline-block;
-	color:#ede986;
-	background: #f2619c;
+	color:#ea3d16;
+	background: #fafafa;
 	text-decoration: none;
 	padding-bottom: 20px;
 }
 
 article a:hover{
-	color:#f1efc4;
-	background: #e7bef8;
+	color:#c4eabb;
+	background: #97da83;
+}
+
+article b:hover{
+	color:#d2e9fb;
+	background: #9cd1f3;
+}
+
+article c:hover{
+	color:#faddf3;
+	background: #fab5d6;
 }
 
 article a:active{
-	color:#eae5c7;
-	background: #e1d8e6;
+	color:#97da83;
+	background: #c4eabb;
+}
+
+article b:active{
+	color:#9cd1f3;
+	background: #d2e9fb;
+}
+
+article c:active{
+	color:#fab5d6;
+	background: #faddf3;
 }
 
 footer{
